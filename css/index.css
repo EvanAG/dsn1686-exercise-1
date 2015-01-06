@@ -16,3 +16,43 @@ html {
 *, *:before, *:after {
 	box-sizing: inherit;
 }
+
+body {
+	background-color:#73628A;
+	font-family: 'Droid Sans', sans-serif;
+	color: #FFF;
+	text-transform: uppercase;
+}
+
+.icons {
+	text-align:center;
+	display: block;
+}
+
+.icon-car {
+	color:#FFF;
+}
+
+.icon-left-open {
+	color:#FFF;
+}
+
+.icon-arrows-ccw {
+	color:#FFF;
+}
+
+.icon-right-open {
+	color:#FFF;
+}
+
+.icon-th-list {
+	color:#FFF;
+}
+
+.icon-star {
+	color:#FFF;
+}
+
+.icon-ok {
+	color:#FFF;
+}
