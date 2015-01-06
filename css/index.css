@@ -29,6 +29,10 @@ body {
 	display: block;
 }
 
+h1 { 
+	border-bottom: 1px #FFF solid;
+}
+
 .icon-car {
 	color:#FFF;
 }
