@@ -17,46 +17,224 @@ html {
 	box-sizing: inherit;
 }
 
-body {
+/* body {
 	background-color:#73628A;
 	font-family: 'Droid Sans', sans-serif;
 	color: #FFF;
 	text-transform: uppercase;
-}
+	 -webkit-font-smoothing: antialiased;
 
+}
+*/
 .icons {
 	text-align:center;
 	display: block;
 }
 
-h1 { 
-	border-bottom: 1px #FFF solid;
+
+@import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+
+
+body {
+  font-family: 'Droid', sans-serif;
+  color: #FFF;
+  background: #73628A;
+  -webkit-font-smoothing: antialiased;
 }
 
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+p > a:hover{
+	color: #d9d9d9;
+	text-decoration:  underline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin:  1% 0 1% 0;
+}
+
+.shape {
+  text-shadow: rgb(79, 68, 95) 1px 1px,
+    rgb(82, 70, 98) 2px 2px,
+    rgb(85, 73, 102) 3px 3px,
+    rgb(88, 76, 106) 4px 4px,
+    rgb(92, 78, 110) 5px 5px,
+    rgb(95, 81, 114) 6px 6px,
+    rgb(98, 84, 118) 7px 7px,
+    rgb(101, 87, 122) 8px 8px,
+    rgb(105, 89, 126) 9px 9px,
+    rgb(108, 92, 130) 10px 10px,
+    rgb(111, 95, 134) 11px 11px,
+    rgb(115, 98, 138) 12px 12px;
+}
+
+
+._12 {
+	font-size: 1.3em;
+
+}
+
+._14 {
+	font-size: 1.4em;
+
+}
+
+ul {
+	padding:0;
+	list-style: none;
+}
+
+.footer-social-icons {
+	width: 350px;
+	display:block;
+    margin: 0 auto;
+    margin-top: 20rem;
+}
+
+.social-icon {
+	color: #fff;
+}
+
+ul.social-icons {	
+	margin-top: 3rem;
+
+}
+
+.social-icons li {
+	vertical-align: top;
+	display: inline;
+}
+
+.social-icons a {
+	color: #232323; 
+	text-decoration: none;
+}
+
+
 .icon-car {
-	color:#FFF;
+	padding:10px 10px 7px 10px;
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	transition: .5s;
+  	background-color: #73628A;
+}
+
+.icon-car:hover {
+	color:#FCFCFC;	
+	-webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
 }
 
 .icon-left-open {
-	color:#FFF;
+	padding:10px 10px 7px 10px;
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	transition: .5s;
+  	background-color: #73628A;
+}
+
+.icon-left-open:hover {
+	color: #FCFCFC;
+	-webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
 }
 
 .icon-arrows-ccw {
-	color:#FFF;
+	padding:10px 10px 7px 10px;
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	transition: .5s;
+  	background-color: #73628A;
 }
 
-.icon-right-open {
-	color:#FFF;
-}
-
-.icon-th-list {
-	color:#FFF;
+.icon-arrows-ccw:hover {
+	color: #FCFCFC;
+	-webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
 }
 
 .icon-star {
-	color:#FFF;
+	padding:10px 10px 7px 10px;
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	transition: .5s;
+  	background-color: #73628A;
+}
+
+.icon-star:hover {
+	color: #FCFCFC;
+	--webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
 }
 
 .icon-ok {
-	color:#FFF;
+	padding:10px 10px 7px 10px;
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	transition: .5s;
+  	background-color: #73628A;
 }
+
+.icon-ok:hover {
+	color: #FCFCFC;
+	-webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+}
+
+.icon-th-list {
+	padding:10px 10px 7px 10px;
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	transition: .5s;
+  	background-color: #73628A;
+}
+
+.icon-th-list:hover {
+	color: #FCFCFC;
+	-webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+}
+
+.icon-right-open {
+	padding:10px 10px 7px 10px;
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	transition: .5s;
+  	background-color: #73628A;
+}
+
+.icon-right-open:hover {
+	color: #FCFCFC;
+	-webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+}
+
