@@ -17,23 +17,10 @@ html {
 	box-sizing: inherit;
 }
 
-/* body {
-	background-color:#73628A;
-	font-family: 'Droid Sans', sans-serif;
-	color: #FFF;
-	text-transform: uppercase;
-	 -webkit-font-smoothing: antialiased;
-
-}
-*/
 .icons {
 	text-align:center;
 	display: block;
 }
-
-
-@import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
-
 
 body {
   font-family: 'Droid', sans-serif;
@@ -52,12 +39,7 @@ p > a:hover{
 	text-decoration:  underline;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1 {
 	margin:  1% 0 1% 0;
 }
 
@@ -81,7 +63,7 @@ ul {
 	width: 350px;
 	display:block;
     margin: 0 auto;
-    margin-top: 20rem;
+    margin-top: 3rem;
 }
 
 .social-icon {
@@ -138,7 +120,7 @@ ul.social-icons {
 	-webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
 	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
-	background-color: #CEB992;
+	background-color: #FF66BC;
 }
 
 .icon-arrows-ccw {
@@ -226,25 +208,30 @@ ul.social-icons {
 	background-color: #ffca6d;
 }
 
-
 .menu li:first-child:hover ~ .bg {
   background: #5C80BC;
 }
+
 .menu li:nth-child(2):hover ~ .bg {
-  background: #CEB992;
+  background: #FF66BC;
 }
+
 .menu li:nth-child(3):hover ~ .bg {
   background: #232323;
 }
+
 .menu li:nth-child(4):hover ~ .bg {
   background: #997FC6;
 }
+
 .menu li:nth-child(5):hover ~ .bg {
   background: #EF8354;
 }
+
 .menu li:nth-child(6):hover ~ .bg {
   background: #2D2D5B;
 }
+
 .menu li:nth-child(7):hover ~ .bg {
   background: #ffca6d;
 }
