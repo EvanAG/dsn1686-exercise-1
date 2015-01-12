@@ -104,6 +104,9 @@ ul.social-icons {
 	-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
 	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
 	background-color: #5C80BC;
+	border-radius: 11px 11px 11px 11px;
+	-moz-border-radius: 11px 11px 11px 11px;
+	-webkit-border-radius: 11px 11px 11px 11px;
 }
 
 .icon-left-open {
@@ -121,6 +124,9 @@ ul.social-icons {
 	-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
 	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
 	background-color: #FF66BC;
+	border-radius: 11px 11px 11px 11px;
+	-moz-border-radius: 11px 11px 11px 11px;
+	-webkit-border-radius: 11px 11px 11px 11px;
 }
 
 .icon-arrows-ccw {
@@ -138,6 +144,9 @@ ul.social-icons {
 	-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
 	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
 	background-color: #232323;
+	border-radius: 11px 11px 11px 11px;
+	-moz-border-radius: 11px 11px 11px 11px;
+	-webkit-border-radius: 11px 11px 11px 11px;
 }
 
 .icon-right-open {
@@ -155,6 +164,9 @@ ul.social-icons {
 	-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
 	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
 	background-color: #997FC6;
+	border-radius: 11px 11px 11px 11px;
+	-moz-border-radius: 11px 11px 11px 11px;
+	-webkit-border-radius: 11px 11px 11px 11px;
 }
 
 .icon-th-list {
@@ -172,6 +184,9 @@ ul.social-icons {
 	-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
 	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
 	background-color: #EF8354;
+	border-radius: 11px 11px 11px 11px;
+	-moz-border-radius: 11px 11px 11px 11px;
+	-webkit-border-radius: 11px 11px 11px 11px;
 }
 
 .icon-star {
@@ -189,6 +204,9 @@ ul.social-icons {
 	-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
 	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
 	background-color: #2D2D5B;
+	border-radius: 11px 11px 11px 11px;
+	-moz-border-radius: 11px 11px 11px 11px;
+	-webkit-border-radius: 11px 11px 11px 11px;
 }
 
 .icon-ok {
@@ -206,6 +224,9 @@ ul.social-icons {
 	-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
 	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
 	background-color: #ffca6d;
+	border-radius: 11px 11px 11px 11px;
+	-moz-border-radius: 11px 11px 11px 11px;
+	-webkit-border-radius: 11px 11px 11px 11px;
 }
 
 .menu li:first-child:hover ~ .bg {
